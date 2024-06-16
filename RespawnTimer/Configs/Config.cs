@@ -9,10 +9,10 @@
     public sealed class Config
 #endif
     {
-        [Description("Whether the plugin is enabled.")]
+        [Description("是否啟用插件。")]
         public bool IsEnabled { get; set; } = true;
 
-        [Description("Whether debug messages shoul be shown in a server console.")]
+        [Description("是否在伺服器控制台中顯示除錯訊息。")]
         public bool Debug { get; set; } = false;
 
         public Dictionary<string, string> Timers { get; private set; } = new()
@@ -22,13 +22,13 @@
             },
         };
 
-        [Description("Whether the timer should be reloaded each round. Useful if you have many different timers designed.")]
+        [Description("是否每回合重新載入計時器。如果您設計了許多不同的計時器，這將非常有用。")]
         public bool ReloadTimerEachRound { get; private set; } = true;
 
-        [Description("Whether the timer should be hidden for players in overwatch.")]
+        [Description("是否對監視狀態下的玩家隱藏計時器。")]
         public bool HideTimerForOverwatch { get; private set; } = true;
 
-        [Description("The delay before the timer will be shown after player death.")]
+        [Description("在玩家死亡後顯示計時器之前的延遲時間。")]
         public float TimerDelay { get; private set; } = -1;
     }
 }

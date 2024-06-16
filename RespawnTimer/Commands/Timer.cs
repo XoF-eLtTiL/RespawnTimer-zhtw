@@ -27,11 +27,11 @@
             {
                 TimerHidden.Add(userId);
 
-                response = "<color=red>Respawn Timer has been hidden!</color>";
+                response = "<color=red>重生時間介面已隱藏!</color>";
                 return true;
             }
 
-            response = "<color=green>Respawn Timer has been shown!</color>";
+            response = "<color=green>重生時間介面已顯示!</color>";
             return true;
         }
     }
