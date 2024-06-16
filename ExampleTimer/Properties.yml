@@ -1,0 +1,27 @@
+# 是否應該在分鐘和秒數小於10時添加前導零。
+leading_zeros: true
+
+# 計時器是否應根據MTF/CI的重生添加時間偏移。
+timer_offset: true
+
+# 自定義提示應更改的頻率（以秒為單位）。
+hint_interval: 10
+
+# 九尾狐的顯示名稱。
+ntf: "<color=blue>九尾狐</color>"
+
+# 混沌分裂者的顯示名稱。
+ci: "<color=green>混沌分裂者</color>"
+
+# 蛇之手的顯示名稱。
+sh: "<color=red>蛇之手</color>"
+
+# 異常事件處理局的顯示名稱。
+uiu: "<color=yellow>異常事件處理局</color>"
+
+# 核彈狀態的顯示名稱：
+warhead_status:
+  NotArmed: "<color=green>未啟動</color>"
+  Armed: "<color=orange>已啟動</color>"
+  InProgress: "<color=red>執行中 - </color> {detonation_time} 秒"
+  Detonated: "<color=#640000>已引爆</color>"

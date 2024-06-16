@@ -1,0 +1,38 @@
+<size=50%>回合時間: {round_minutes}:{round_seconds} | 伺服器更新率: {tps}/{tickrate}</size>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<size=75%><color={RANDOM_COLOR}>你將會重生: </color>
+{minutes} 分 {seconds} 秒
+
+<align=left>核彈啟動狀態: {warhead_status}
+發電機: {generator_engaged}/{generator_count}</align>
+<align=right>
+<color=#808080>旁觀者:</color> {spectators_num}
+<color=blue>九尾狐重生機率:</color> {ntf_spawn_chance}%
+<color=green>分裂者重生機率:</color> {ci_spawn_chance}%
+</align>
+{hint}
+
+
+
+
+
+
+
+
+
+
+
