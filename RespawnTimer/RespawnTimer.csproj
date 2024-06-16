@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <AssemblyName>RespawnTimer</AssemblyName>
-        <RootNamespace>RespawnTimer</RootNamespace>
+        <AssemblyName>RespawnTimer-zhtw</AssemblyName>
+        <RootNamespace>RespawnTimer-zhtw</RootNamespace>
         <TargetFramework>net48</TargetFramework>
         <LangVersion>10</LangVersion>
         <Nullable>disable</Nullable>
